@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+body{
+    background-color: #7fffd4;
+    padding: 20px;
+}
+
+.add-btn{
+    height: 6vh;
+    width: 5vw;
+    font-size: 15px;
+}
+.input-text{
+    margin-top: 0px;
+    width: 15vw;
+    padding-top: 5px;
+    padding-left: 5px;
+    font-size: 15px;
+}
+
+.input{
+    display: flex;
+}
+
+.output-item{
+    display: flex;
+    margin-bottom: 5px;
+}
+
+.output-item > div{
+    padding: 5px;
+    background-color: white;
+    border: 1px solid black;
+} 
+
+.output{
+    margin-top: 50px;
+}
+
+.editable-item{
+    font-size: 20px;
+}
+
+.delete-btn{
+    width: 5vw;
+    font-size: 15px;
+}
